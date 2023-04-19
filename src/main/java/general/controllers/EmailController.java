@@ -14,13 +14,11 @@ public class EmailController {
 
     @PostMapping("/sendEmail")
     public String sendEmail(@RequestBody EmailDetails emailDetails) {
-        String status = emailService.sendSimpleMail(emailDetails);
-        return status;
+        return emailService.sendSimpleMail(emailDetails);
     }
     @PostMapping("/sendEmailWithAttach")
     public String sendEmailWithAttach(@RequestBody EmailDetails emailDetails) {
-        String status = emailService.sendMailWithAttachment(emailDetails);
-        return status;
+        return emailService.sendMailWithAttachment(emailDetails);
     }
 
 }

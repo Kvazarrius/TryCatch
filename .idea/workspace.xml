@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="641607ce-a56b-4032-b7c2-db98d86d9d7f" name="Changes" comment="First_step">
-      <change afterPath="$PROJECT_DIR$/src/main/java/general/controllers/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/general/mail/EmailDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/general/mail/JavaMailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/general/service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/general/service/impl/EmailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/general/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/controllers/TryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/general/controllers/TryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/general/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/general/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/general/service/impl/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="641607ce-a56b-4032-b7c2-db98d86d9d7f" name="Changes" comment="v_0.004">
+      <change beforePath="$PROJECT_DIR$/src/main/java/general/controllers/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/general/controllers/EmailController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,25 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/akornyakov/Desktop/Other/My/DEV/TryCatch_0.003&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;123c55512f047fa2f1a6ceaeffa2201a&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/akornyakov/Desktop/Other/My/DEV/TryCatch_0.003",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "123c55512f047fa2f1a6ceaeffa2201a",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="service.impl" />
@@ -133,7 +123,16 @@
       <workItem from="1681467783758" duration="655000" />
       <workItem from="1681842672745" duration="3440000" />
       <workItem from="1681846132069" duration="1262000" />
+      <workItem from="1681911578599" duration="335000" />
     </task>
+    <task id="LOCAL-00001" summary="v_0.004">
+      <created>1681911859175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681911859175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First_step" />
-    <option name="LAST_COMMIT_MESSAGE" value="First_step" />
+    <MESSAGE value="v_0.004" />
+    <option name="LAST_COMMIT_MESSAGE" value="v_0.004" />
   </component>
 </project>
