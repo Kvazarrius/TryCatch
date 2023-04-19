@@ -1,4 +1,4 @@
-package general.controllers.dto;
+package general.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

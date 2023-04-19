@@ -1,10 +1,12 @@
 package general.controllers;
 
-import general.controllers.dto.UserDTO;
+import general.dto.UserDTO;
+import general.service.UserService;
+import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import general.controllers.service.UserService;
 
 @RestController
+@AllArgsConstructor
 public class TryController {
 
     UserService userService;
@@ -22,5 +24,4 @@ public class TryController {
     public UserDTO getUser(@RequestParam int id) {
         return userService.getUser(id);
     }
-
 }

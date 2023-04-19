@@ -1,6 +1,6 @@
-package general.controllers.service;
+package general.service;
 
-import general.controllers.dto.UserDTO;
+import general.dto.UserDTO;
 
 public interface UserService {
     void addUser(int id, String name);
