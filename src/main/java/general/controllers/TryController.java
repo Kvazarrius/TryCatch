@@ -1,27 +1,31 @@
 package general.controllers;
 
-import general.dto.UserDTO;
-import general.service.UserService;
+import general.dto.User;
+import general.service.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @AllArgsConstructor
 public class TryController {
+    UserRepository userRepository;
 
-    UserService userService;
-
-    @RequestMapping("/hi")
+    @RequestMapping("/")
     public String hi() {
         return "TryCatch will be available soon... (no)";
     }
+
     @PostMapping("/addUser")
-    public void addUser(@RequestParam int id, @RequestParam String name) {
-        userService.addUser(id, name);
+    public String addUser(@RequestParam String name, @RequestParam String email) {
+        User user = new User();
+        user.setName(name);
+        user.setEmail(email);
+        userRepository.save(user);
+        return "User add!";
     }
 
-    @GetMapping("/getUser")
-    public UserDTO getUser(@RequestParam int id) {
-        return userService.getUser(id);
+    @GetMapping("/getAllUsers")
+    public Iterable<User> getAllUsers() {
+        return userRepository.findAll();
     }
 }
